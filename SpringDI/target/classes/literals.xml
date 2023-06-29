@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+<bean id="e1" class="org.tnsif.literals.Employee">
+	<constructor-arg name="empId" value="103"></constructor-arg>
+	<constructor-arg name="empName" value="Prithvi"></constructor-arg>
+	<constructor-arg name="address" value="Nagpur"></constructor-arg>
+	<constructor-arg name="salary" value="40000.00f"></constructor-arg>
+
+	<!--property name="empId" value="101"></property>
+	<property name="empName" value="raj"></property>
+	<property name="address" value="pune"></property>
+	<property name="salary" value="60000.99f"></property-->
+</bean>
+
+<bean id="e2" class="org.tnsif.literals.Employee">
+	<constructor-arg name="empId" value="104"></constructor-arg>
+	<constructor-arg name="empName" value="Niket"></constructor-arg>
+	<constructor-arg name="address" value="Nashk"></constructor-arg>
+	<constructor-arg name="salary" value="60000.00f"></constructor-arg>
+
+	<!--property name="empId" value="102"></property>
+	<property name="empName" value="rahul"></property>
+	<property name="address" value="mumbai"></property>
+	<property name="salary" value="50000.99f"></property-->
+</bean>
+
+</beans>
